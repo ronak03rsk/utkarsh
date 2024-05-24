@@ -17,6 +17,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "concurrently \"npm run start\" \"cd ../client && npm start\""
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
